@@ -1,0 +1,82 @@
+.movie-card {
+  text-align: center;
+  margin: 0px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie-card img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-card h3 {
+  margin-top: 10px;
+}
+
+.movie-card-container {
+  text-align: center;
+  margin: 0px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie-card-container:hover {
+  transform: scale(1.1); /* Increase the scale to make it 10% bigger */
+}
+
+.movie-card-container:hover .button-container {
+  opacity: 1; /* This makes the buttons visible when the user hovers over the movie poster */
+}
+
+.button-container {
+  display: flex; /* This puts the buttons side by side */
+  justify-content: center; /* This centers the buttons horizontally */
+  margin-top: 10px; /* This adds space above the button container */
+  opacity: 0; /* This makes the buttons invisible initially */
+  transition: opacity 0.3s ease-in-out; /* This adds a transition effect when changing the opacity */
+}
+
+.movie-card:hover ~ .button-container {
+  opacity: 1; /* This makes the buttons visible when the user hovers over the movie poster */
+}
+
+.round-button {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #000;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 10px; /* This adds 10px of spacing on the left and right sides of each button */
+  transition: transform 0.3s ease-in-out;
+}
+
+.movie-card-container:hover .round-button {
+  transform: scale(1.1); /* Increase the scale to make it 10% bigger */
+}
+
+
+
+.cart-button {
+  background-color: #fff;
+}
+
+.cart-button:hover {
+  background-color: #f2f2f2; /* Slightly more grey */
+}
+
+.info-button {
+  color: #ddd; /* Slight grey */
+  background-color: #333;
+  border: 2px solid #ddd; /* Slight grey */
+}
+
+.info-button:hover {
+  color: #fff; /* White */
+  border: 2px solid #fff; /* White */
+}

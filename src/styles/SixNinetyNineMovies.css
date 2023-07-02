@@ -1,0 +1,16 @@
+/* SixNinetyNineMovies.css
+.section-container {
+  margin-top: 40px;
+}
+
+.section-title {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+} */

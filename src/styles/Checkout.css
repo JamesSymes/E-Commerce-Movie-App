@@ -1,0 +1,71 @@
+/* Checkout.css */
+.checkout-page-content {
+  padding-top: 70px; /* Adjust this value as needed */
+  padding-bottom: 70px;
+  background-color: #151515;
+  min-height: 100vh; /* Fill the whole viewport */
+  width: 100%; /* Fill the whole viewport */
+  display: flex;
+  justify-content: center; /* Center the child elements */
+}
+
+.checkout {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+  padding-top: 50px;
+}
+
+.checkout h2 {
+  color: #fff; /* Set the heading text color to white */
+}
+
+.checkout form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: #151515;
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.checkout p {
+  color: #fff; /* Set the text color to white */
+  font-size: 1.2em; /* Adjust the font size as desired */
+  margin-bottom: 5px; /* Reduce the bottom margin for tighter spacing */
+}
+
+.checkout p.total {
+  font-weight: bold; /* Make the Total text bold */
+}
+
+
+
+.checkout label {
+  display: flex;
+  flex-direction: column;
+  color: #fff; /* Set label text color to white */
+}
+
+.checkout input {
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #000;
+}
+
+.checkout input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}

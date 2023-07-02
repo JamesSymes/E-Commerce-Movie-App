@@ -1,0 +1,31 @@
+/* index.css */
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #fff;
+}
+
+html, body {
+  background-color: #151515;
+  color: #fff;
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+a {
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+@media (prefers-color-scheme: light) {
+  :root, html, body {
+    color: #213547;
+    background-color: #ffffff;
+  }
+}
