@@ -19,7 +19,7 @@ import ContactPage from './pages/ContactPage';
 
 const App = () => {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <CartProvider>
         <Header />
         <div className="app">
@@ -46,3 +46,4 @@ const App = () => {
 };
 
 export default App;
+
